@@ -1,0 +1,372 @@
+2023-03-18 23:24:00,990 - allrank.utils.ltr_logging - INFO - created paths container PathsContainer(local_base_output_path='./allrank/task-data', base_output_path='./allrank/task-data', output_dir='./allrank/task-data\\results\\test_run', tensorboard_output_path='./allrank/task-data\\tb_evals\\single\\test_run', config_path='./allrank/config.json')
+2023-03-18 23:24:00,991 - allrank.utils.ltr_logging - INFO - Config:
+ {'click_model': None,
+ 'data': DataConfig(path='C:\\Users\\tyfann\\Documents\\TU Delft\\IN4325 Information Retrieval\\IN4325-IR\\data\\MSLR-WEB10K\\Fold1_normalized', num_workers=1, batch_size=64, slate_length=240, validation_ds_role='test'),
+ 'detect_anomaly': False,
+ 'expected_metrics': {'val': {'ndcg_5': 0.5}},
+ 'loss': NameArgsConfig(name='approxNDCGLoss', args={'alpha': 1.0}),
+ 'lr_scheduler': NameArgsConfig(name='StepLR', args={'step_size': 50, 'gamma': 0.1}),
+ 'metrics': defaultdict(<class 'list'>,
+                        {'ndcg': [5,
+                                  10,
+                                  30,
+                                  60]}),
+ 'model': ModelConfig(fc_model={'sizes': [96], 'input_norm': False, 'activation': None, 'dropout': 0.0}, transformer=TransformerConfig(N=2, d_ff=384, h=1, positional_encoding=None, dropout=0.1), post_model={'output_activation': None, 'd_output': 1}),
+ 'optimizer': NameArgsConfig(name='Adam', args={'lr': 0.001}),
+ 'training': TrainingConfig(epochs=100, gradient_clipping_norm=None, early_stopping_patience=100),
+ 'val_metric': 'ndcg_5'}
+2023-03-18 23:24:00,992 - allrank.utils.ltr_logging - INFO - will execute cp ./allrank/config.json ./allrank/task-data\results\test_run\used_config.json
+2023-03-18 23:24:01,005 - allrank.utils.ltr_logging - INFO - exit_code = 1
+2023-03-18 23:27:58,424 - allrank.utils.ltr_logging - INFO - created paths container PathsContainer(local_base_output_path='.\\allrank\\task-data', base_output_path='.\\allrank\\task-data', output_dir='.\\allrank\\task-data\\results\\test_run', tensorboard_output_path='.\\allrank\\task-data\\tb_evals\\single\\test_run', config_path='.\\allrank\\config.json')
+2023-03-18 23:27:58,425 - allrank.utils.ltr_logging - INFO - Config:
+ {'click_model': None,
+ 'data': DataConfig(path='C:\\Users\\tyfann\\Documents\\TU Delft\\IN4325 Information Retrieval\\IN4325-IR\\data\\MSLR-WEB10K\\Fold1_normalized', num_workers=1, batch_size=64, slate_length=240, validation_ds_role='test'),
+ 'detect_anomaly': False,
+ 'expected_metrics': {'val': {'ndcg_5': 0.5}},
+ 'loss': NameArgsConfig(name='approxNDCGLoss', args={'alpha': 1.0}),
+ 'lr_scheduler': NameArgsConfig(name='StepLR', args={'step_size': 50, 'gamma': 0.1}),
+ 'metrics': defaultdict(<class 'list'>,
+                        {'ndcg': [5,
+                                  10,
+                                  30,
+                                  60]}),
+ 'model': ModelConfig(fc_model={'sizes': [96], 'input_norm': False, 'activation': None, 'dropout': 0.0}, transformer=TransformerConfig(N=2, d_ff=384, h=1, positional_encoding=None, dropout=0.1), post_model={'output_activation': None, 'd_output': 1}),
+ 'optimizer': NameArgsConfig(name='Adam', args={'lr': 0.001}),
+ 'training': TrainingConfig(epochs=100, gradient_clipping_norm=None, early_stopping_patience=100),
+ 'val_metric': 'ndcg_5'}
+2023-03-18 23:27:58,425 - allrank.utils.ltr_logging - INFO - will execute cp .\allrank\config.json .\allrank\task-data\results\test_run\used_config.json
+2023-03-18 23:27:58,437 - allrank.utils.ltr_logging - INFO - exit_code = 1
+2023-03-18 23:29:25,793 - allrank.utils.ltr_logging - INFO - created paths container PathsContainer(local_base_output_path='.\\allrank\\task-data', base_output_path='.\\allrank\\task-data', output_dir='.\\allrank\\task-data\\results\\test_run', tensorboard_output_path='.\\allrank\\task-data\\tb_evals\\single\\test_run', config_path='.\\allrank\\config.json')
+2023-03-18 23:29:25,794 - allrank.utils.ltr_logging - INFO - Config:
+ {'click_model': None,
+ 'data': DataConfig(path='C:\\Users\\tyfann\\Documents\\TU Delft\\IN4325 Information Retrieval\\IN4325-IR\\data\\MSLR-WEB10K\\Fold1_normalized', num_workers=1, batch_size=64, slate_length=240, validation_ds_role='test'),
+ 'detect_anomaly': False,
+ 'expected_metrics': {'val': {'ndcg_5': 0.5}},
+ 'loss': NameArgsConfig(name='approxNDCGLoss', args={'alpha': 1.0}),
+ 'lr_scheduler': NameArgsConfig(name='StepLR', args={'step_size': 50, 'gamma': 0.1}),
+ 'metrics': defaultdict(<class 'list'>,
+                        {'ndcg': [5,
+                                  10,
+                                  30,
+                                  60]}),
+ 'model': ModelConfig(fc_model={'sizes': [96], 'input_norm': False, 'activation': None, 'dropout': 0.0}, transformer=TransformerConfig(N=2, d_ff=384, h=1, positional_encoding=None, dropout=0.1), post_model={'output_activation': None, 'd_output': 1}),
+ 'optimizer': NameArgsConfig(name='Adam', args={'lr': 0.001}),
+ 'training': TrainingConfig(epochs=100, gradient_clipping_norm=None, early_stopping_patience=100),
+ 'val_metric': 'ndcg_5'}
+2023-03-18 23:29:25,795 - allrank.utils.ltr_logging - INFO - will execute copy .\allrank\config.json .\allrank\task-data\results\test_run\used_config.json
+2023-03-18 23:29:25,806 - allrank.utils.ltr_logging - INFO - exit_code = 0
+2023-03-18 23:29:25,806 - allrank.utils.ltr_logging - INFO - will load train data from C:\Users\tyfann\Documents\TU Delft\IN4325 Information Retrieval\IN4325-IR\data\MSLR-WEB10K\Fold1_normalized\train.txt
+2023-03-18 23:30:17,466 - allrank.utils.ltr_logging - INFO - loaded dataset from <_io.BufferedReader name='C:\\Users\\tyfann\\Documents\\TU Delft\\IN4325 Information Retrieval\\IN4325-IR\\data\\MSLR-WEB10K\\Fold1_normalized\\train.txt'> and got x shape (723412, 136), y shape (723412,) and query_ids shape (723412,)
+2023-03-18 23:30:17,692 - allrank.utils.ltr_logging - INFO - loaded dataset with 6000 queries
+2023-03-18 23:30:17,692 - allrank.utils.ltr_logging - INFO - longest query had 809 documents
+2023-03-18 23:30:17,770 - allrank.utils.ltr_logging - INFO - train DS shape: [6000, 809, 136]
+2023-03-18 23:30:17,770 - allrank.utils.ltr_logging - INFO - will load test data from C:\Users\tyfann\Documents\TU Delft\IN4325 Information Retrieval\IN4325-IR\data\MSLR-WEB10K\Fold1_normalized\test.txt
+2023-03-18 23:30:34,072 - allrank.utils.ltr_logging - INFO - loaded dataset from <_io.BufferedReader name='C:\\Users\\tyfann\\Documents\\TU Delft\\IN4325 Information Retrieval\\IN4325-IR\\data\\MSLR-WEB10K\\Fold1_normalized\\test.txt'> and got x shape (241521, 136), y shape (241521,) and query_ids shape (241521,)
+2023-03-18 23:30:34,153 - allrank.utils.ltr_logging - INFO - loaded dataset with 2000 queries
+2023-03-18 23:30:34,153 - allrank.utils.ltr_logging - INFO - longest query had 514 documents
+2023-03-18 23:30:34,178 - allrank.utils.ltr_logging - INFO - test DS shape: [2000, 514, 136]
+2023-03-18 23:30:34,179 - allrank.utils.ltr_logging - INFO - Will pad to the longest slate: 514
+2023-03-18 23:30:34,241 - allrank.utils.ltr_logging - INFO - total batch size is 64
+2023-03-18 23:30:34,242 - allrank.utils.ltr_logging - INFO - Model training will execute on cuda
+2023-03-18 23:30:36,308 - allrank.utils.ltr_logging - INFO - Model has 237121 trainable parameters
+2023-03-18 23:30:36,308 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:30:50,974 - allrank.utils.ltr_logging - INFO - Epoch : 0 Train loss: -0.6378020451863606 Val loss: -0.6635458250045776 Train ndcg_5 0.4415016770362854 Train ndcg_10 0.4595966041088104 Train ndcg_30 0.5175880193710327 Train ndcg_60 0.5903999209403992 Val ndcg_5 0.4487369656562805 Val ndcg_10 0.4639143943786621 Val ndcg_30 0.523710310459137 Val ndcg_60 0.5955572724342346
+2023-03-18 23:30:50,975 - allrank.utils.ltr_logging - INFO - Current:0.4487369656562805 Best:0.0
+2023-03-18 23:30:50,975 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:31:03,828 - allrank.utils.ltr_logging - INFO - Epoch : 1 Train loss: -0.6676982456843058 Val loss: -0.6726704740524292 Train ndcg_5 0.45144256949424744 Train ndcg_10 0.4697684645652771 Train ndcg_30 0.5278745889663696 Train ndcg_60 0.5995621085166931 Val ndcg_5 0.45549488067626953 Val ndcg_10 0.47292184829711914 Val ndcg_30 0.5328057408332825 Val ndcg_60 0.6022564768791199
+2023-03-18 23:31:03,830 - allrank.utils.ltr_logging - INFO - Current:0.45549488067626953 Best:0.4487369656562805
+2023-03-18 23:31:03,830 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:31:16,628 - allrank.utils.ltr_logging - INFO - Epoch : 2 Train loss: -0.674299162864685 Val loss: -0.6773176393508911 Train ndcg_5 0.459669828414917 Train ndcg_10 0.47614994645118713 Train ndcg_30 0.5326898694038391 Train ndcg_60 0.6038205623626709 Val ndcg_5 0.46343299746513367 Val ndcg_10 0.479306697845459 Val ndcg_30 0.5358422994613647 Val ndcg_60 0.6048111915588379
+2023-03-18 23:31:16,629 - allrank.utils.ltr_logging - INFO - Current:0.46343299746513367 Best:0.45549488067626953
+2023-03-18 23:31:16,630 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:31:29,304 - allrank.utils.ltr_logging - INFO - Epoch : 3 Train loss: -0.6810887908935547 Val loss: -0.6810847339630127 Train ndcg_5 0.46145305037498474 Train ndcg_10 0.4789990186691284 Train ndcg_30 0.5373316407203674 Train ndcg_60 0.6070229411125183 Val ndcg_5 0.4610344469547272 Val ndcg_10 0.47955983877182007 Val ndcg_30 0.5395941734313965 Val ndcg_60 0.6084237694740295
+2023-03-18 23:31:29,305 - allrank.utils.ltr_logging - INFO - Current:0.4610344469547272 Best:0.46343299746513367
+2023-03-18 23:31:29,306 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:31:41,964 - allrank.utils.ltr_logging - INFO - Epoch : 4 Train loss: -0.6811245628992717 Val loss: -0.6802636952400207 Train ndcg_5 0.4636719226837158 Train ndcg_10 0.48003295063972473 Train ndcg_30 0.5353592038154602 Train ndcg_60 0.6057995557785034 Val ndcg_5 0.4614165127277374 Val ndcg_10 0.4776034355163574 Val ndcg_30 0.5363106727600098 Val ndcg_60 0.6053492426872253
+2023-03-18 23:31:41,965 - allrank.utils.ltr_logging - INFO - Current:0.4614165127277374 Best:0.46343299746513367
+2023-03-18 23:31:41,966 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:31:54,510 - allrank.utils.ltr_logging - INFO - Epoch : 5 Train loss: -0.6837560949325562 Val loss: -0.683175973892212 Train ndcg_5 0.4664022624492645 Train ndcg_10 0.48240405321121216 Train ndcg_30 0.5393209457397461 Train ndcg_60 0.6089889407157898 Val ndcg_5 0.4648497402667999 Val ndcg_10 0.4827682077884674 Val ndcg_30 0.5399775505065918 Val ndcg_60 0.609761655330658
+2023-03-18 23:31:54,512 - allrank.utils.ltr_logging - INFO - Current:0.4648497402667999 Best:0.46343299746513367
+2023-03-18 23:31:54,513 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:32:07,160 - allrank.utils.ltr_logging - INFO - Epoch : 6 Train loss: -0.6856985799471538 Val loss: -0.6853705697059631 Train ndcg_5 0.4688114821910858 Train ndcg_10 0.48524168133735657 Train ndcg_30 0.5392807722091675 Train ndcg_60 0.6086535453796387 Val ndcg_5 0.46975845098495483 Val ndcg_10 0.4868830442428589 Val ndcg_30 0.5413068532943726 Val ndcg_60 0.6102341413497925
+2023-03-18 23:32:07,161 - allrank.utils.ltr_logging - INFO - Current:0.46975845098495483 Best:0.4648497402667999
+2023-03-18 23:32:07,162 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:32:19,904 - allrank.utils.ltr_logging - INFO - Epoch : 7 Train loss: -0.6883220922152201 Val loss: -0.681374008178711 Train ndcg_5 0.46181216835975647 Train ndcg_10 0.4794526994228363 Train ndcg_30 0.5363515615463257 Train ndcg_60 0.6065738201141357 Val ndcg_5 0.46237674355506897 Val ndcg_10 0.47971218824386597 Val ndcg_30 0.5376162528991699 Val ndcg_60 0.6067822575569153
+2023-03-18 23:32:19,905 - allrank.utils.ltr_logging - INFO - Current:0.46237674355506897 Best:0.46975845098495483
+2023-03-18 23:32:19,906 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:32:32,865 - allrank.utils.ltr_logging - INFO - Epoch : 8 Train loss: -0.6872889564832052 Val loss: -0.6852796912193299 Train ndcg_5 0.46879875659942627 Train ndcg_10 0.4849621057510376 Train ndcg_30 0.5402166247367859 Train ndcg_60 0.6102573871612549 Val ndcg_5 0.46618884801864624 Val ndcg_10 0.4833047688007355 Val ndcg_30 0.5413271188735962 Val ndcg_60 0.6104562282562256
+2023-03-18 23:32:32,866 - allrank.utils.ltr_logging - INFO - Current:0.46618884801864624 Best:0.46975845098495483
+2023-03-18 23:32:32,867 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:32:45,630 - allrank.utils.ltr_logging - INFO - Epoch : 9 Train loss: -0.6890471479098003 Val loss: -0.6854229097366333 Train ndcg_5 0.46853139996528625 Train ndcg_10 0.4841884672641754 Train ndcg_30 0.5418871641159058 Train ndcg_60 0.6110309362411499 Val ndcg_5 0.46629971265792847 Val ndcg_10 0.48368439078330994 Val ndcg_30 0.5414085984230042 Val ndcg_60 0.6101886034011841
+2023-03-18 23:32:45,631 - allrank.utils.ltr_logging - INFO - Current:0.46629971265792847 Best:0.46975845098495483
+2023-03-18 23:32:45,632 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:32:58,320 - allrank.utils.ltr_logging - INFO - Epoch : 10 Train loss: -0.6892499936421712 Val loss: -0.6854074716567993 Train ndcg_5 0.47036829590797424 Train ndcg_10 0.4844236671924591 Train ndcg_30 0.5408741235733032 Train ndcg_60 0.6103883385658264 Val ndcg_5 0.46676740050315857 Val ndcg_10 0.48254403471946716 Val ndcg_30 0.5394397377967834 Val ndcg_60 0.6096864342689514
+2023-03-18 23:32:58,321 - allrank.utils.ltr_logging - INFO - Current:0.46676740050315857 Best:0.46975845098495483
+2023-03-18 23:32:58,322 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:33:10,926 - allrank.utils.ltr_logging - INFO - Epoch : 11 Train loss: -0.6905994981129964 Val loss: -0.6857861604690552 Train ndcg_5 0.4701091945171356 Train ndcg_10 0.4851670265197754 Train ndcg_30 0.5421217679977417 Train ndcg_60 0.6118687391281128 Val ndcg_5 0.46633559465408325 Val ndcg_10 0.4838087856769562 Val ndcg_30 0.5421895980834961 Val ndcg_60 0.6113935708999634
+2023-03-18 23:33:10,927 - allrank.utils.ltr_logging - INFO - Current:0.46633559465408325 Best:0.46975845098495483
+2023-03-18 23:33:10,929 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:33:23,558 - allrank.utils.ltr_logging - INFO - Epoch : 12 Train loss: -0.6918522315025329 Val loss: -0.6844298205375672 Train ndcg_5 0.47021785378456116 Train ndcg_10 0.48453637957572937 Train ndcg_30 0.5400421619415283 Train ndcg_60 0.6095116138458252 Val ndcg_5 0.467081218957901 Val ndcg_10 0.4824697971343994 Val ndcg_30 0.5393796563148499 Val ndcg_60 0.6086297631263733
+2023-03-18 23:33:23,559 - allrank.utils.ltr_logging - INFO - Current:0.467081218957901 Best:0.46975845098495483
+2023-03-18 23:33:23,560 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:33:36,366 - allrank.utils.ltr_logging - INFO - Epoch : 13 Train loss: -0.6885705383618673 Val loss: -0.6879771747589112 Train ndcg_5 0.4703512191772461 Train ndcg_10 0.4864054322242737 Train ndcg_30 0.543179452419281 Train ndcg_60 0.6127589344978333 Val ndcg_5 0.4684165120124817 Val ndcg_10 0.4845607280731201 Val ndcg_30 0.5430692434310913 Val ndcg_60 0.612109363079071
+2023-03-18 23:33:36,368 - allrank.utils.ltr_logging - INFO - Current:0.4684165120124817 Best:0.46975845098495483
+2023-03-18 23:33:36,368 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:33:49,147 - allrank.utils.ltr_logging - INFO - Epoch : 14 Train loss: -0.6910949926376343 Val loss: -0.6901184186935425 Train ndcg_5 0.4757954478263855 Train ndcg_10 0.49202659726142883 Train ndcg_30 0.5472126603126526 Train ndcg_60 0.6163339614868164 Val ndcg_5 0.47403061389923096 Val ndcg_10 0.4888285994529724 Val ndcg_30 0.5475197434425354 Val ndcg_60 0.6154873371124268
+2023-03-18 23:33:49,149 - allrank.utils.ltr_logging - INFO - Current:0.47403061389923096 Best:0.46975845098495483
+2023-03-18 23:33:49,149 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:34:01,952 - allrank.utils.ltr_logging - INFO - Epoch : 15 Train loss: -0.6933240726788839 Val loss: -0.6917192201614379 Train ndcg_5 0.47511380910873413 Train ndcg_10 0.4911286234855652 Train ndcg_30 0.5478156805038452 Train ndcg_60 0.6164229512214661 Val ndcg_5 0.47606685757637024 Val ndcg_10 0.4905124008655548 Val ndcg_30 0.5484548211097717 Val ndcg_60 0.6167086362838745
+2023-03-18 23:34:01,953 - allrank.utils.ltr_logging - INFO - Current:0.47606685757637024 Best:0.47403061389923096
+2023-03-18 23:34:01,954 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:34:14,737 - allrank.utils.ltr_logging - INFO - Epoch : 16 Train loss: -0.692519909063975 Val loss: -0.6902617444992065 Train ndcg_5 0.4754912853240967 Train ndcg_10 0.4912981688976288 Train ndcg_30 0.5477117300033569 Train ndcg_60 0.6162250638008118 Val ndcg_5 0.47427332401275635 Val ndcg_10 0.4888743758201599 Val ndcg_30 0.5475592017173767 Val ndcg_60 0.6151803135871887
+2023-03-18 23:34:14,739 - allrank.utils.ltr_logging - INFO - Current:0.47427332401275635 Best:0.47606685757637024
+2023-03-18 23:34:14,739 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:34:27,529 - allrank.utils.ltr_logging - INFO - Epoch : 17 Train loss: -0.6950157318115234 Val loss: -0.688562885761261 Train ndcg_5 0.47432196140289307 Train ndcg_10 0.49044111371040344 Train ndcg_30 0.5473329424858093 Train ndcg_60 0.615875244140625 Val ndcg_5 0.46968352794647217 Val ndcg_10 0.4860181212425232 Val ndcg_30 0.5450581312179565 Val ndcg_60 0.6132640242576599
+2023-03-18 23:34:27,530 - allrank.utils.ltr_logging - INFO - Current:0.46968352794647217 Best:0.47606685757637024
+2023-03-18 23:34:27,530 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:34:40,351 - allrank.utils.ltr_logging - INFO - Epoch : 18 Train loss: -0.6939062589009602 Val loss: -0.6870816679000854 Train ndcg_5 0.4719439148902893 Train ndcg_10 0.4889164865016937 Train ndcg_30 0.5445712208747864 Train ndcg_60 0.6138081550598145 Val ndcg_5 0.46767938137054443 Val ndcg_10 0.4831570088863373 Val ndcg_30 0.5422160625457764 Val ndcg_60 0.6108192205429077
+2023-03-18 23:34:40,353 - allrank.utils.ltr_logging - INFO - Current:0.46767938137054443 Best:0.47606685757637024
+2023-03-18 23:34:40,353 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:34:53,123 - allrank.utils.ltr_logging - INFO - Epoch : 19 Train loss: -0.6935063269933065 Val loss: -0.6897477035522461 Train ndcg_5 0.4735444188117981 Train ndcg_10 0.4896923899650574 Train ndcg_30 0.5461336374282837 Train ndcg_60 0.6156638860702515 Val ndcg_5 0.47049227356910706 Val ndcg_10 0.4859812259674072 Val ndcg_30 0.5449954867362976 Val ndcg_60 0.6134194135665894
+2023-03-18 23:34:53,124 - allrank.utils.ltr_logging - INFO - Current:0.47049227356910706 Best:0.47606685757637024
+2023-03-18 23:34:53,125 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:35:05,885 - allrank.utils.ltr_logging - INFO - Epoch : 20 Train loss: -0.6924659603436788 Val loss: -0.6863533058166504 Train ndcg_5 0.46288955211639404 Train ndcg_10 0.4803890883922577 Train ndcg_30 0.5377730131149292 Train ndcg_60 0.6084415912628174 Val ndcg_5 0.46377137303352356 Val ndcg_10 0.4811303913593292 Val ndcg_30 0.5400364995002747 Val ndcg_60 0.6085922718048096
+2023-03-18 23:35:05,885 - allrank.utils.ltr_logging - INFO - Current:0.46377137303352356 Best:0.47606685757637024
+2023-03-18 23:35:05,886 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:35:18,531 - allrank.utils.ltr_logging - INFO - Epoch : 21 Train loss: -0.6939458165168763 Val loss: -0.6901207551956177 Train ndcg_5 0.4749370515346527 Train ndcg_10 0.4905853569507599 Train ndcg_30 0.5476600527763367 Train ndcg_60 0.6166313290596008 Val ndcg_5 0.4744378924369812 Val ndcg_10 0.48871517181396484 Val ndcg_30 0.5465407967567444 Val ndcg_60 0.6146602034568787
+2023-03-18 23:35:18,533 - allrank.utils.ltr_logging - INFO - Current:0.4744378924369812 Best:0.47606685757637024
+2023-03-18 23:35:18,534 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:35:31,250 - allrank.utils.ltr_logging - INFO - Epoch : 22 Train loss: -0.6951501611073811 Val loss: -0.6895278282165528 Train ndcg_5 0.47352245450019836 Train ndcg_10 0.4897829592227936 Train ndcg_30 0.5461222529411316 Train ndcg_60 0.6161484718322754 Val ndcg_5 0.47201913595199585 Val ndcg_10 0.4873110055923462 Val ndcg_30 0.544869065284729 Val ndcg_60 0.6139435768127441
+2023-03-18 23:35:31,251 - allrank.utils.ltr_logging - INFO - Current:0.47201913595199585 Best:0.47606685757637024
+2023-03-18 23:35:31,252 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:35:43,910 - allrank.utils.ltr_logging - INFO - Epoch : 23 Train loss: -0.6937657351493836 Val loss: -0.6871317319869995 Train ndcg_5 0.470299631357193 Train ndcg_10 0.48607107996940613 Train ndcg_30 0.5432506203651428 Train ndcg_60 0.6128837466239929 Val ndcg_5 0.4679723083972931 Val ndcg_10 0.48357975482940674 Val ndcg_30 0.5410268306732178 Val ndcg_60 0.6102340221405029
+2023-03-18 23:35:43,911 - allrank.utils.ltr_logging - INFO - Current:0.4679723083972931 Best:0.47606685757637024
+2023-03-18 23:35:43,912 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:35:56,714 - allrank.utils.ltr_logging - INFO - Epoch : 24 Train loss: -0.6956344146728516 Val loss: -0.689485119342804 Train ndcg_5 0.47660863399505615 Train ndcg_10 0.49282535910606384 Train ndcg_30 0.5482104420661926 Train ndcg_60 0.6171117424964905 Val ndcg_5 0.4704135060310364 Val ndcg_10 0.4882693588733673 Val ndcg_30 0.5453643798828125 Val ndcg_60 0.6135812997817993
+2023-03-18 23:35:56,716 - allrank.utils.ltr_logging - INFO - Current:0.4704135060310364 Best:0.47606685757637024
+2023-03-18 23:35:56,716 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:36:09,453 - allrank.utils.ltr_logging - INFO - Epoch : 25 Train loss: -0.6966474107106526 Val loss: -0.6913074955940247 Train ndcg_5 0.4780060648918152 Train ndcg_10 0.4938693046569824 Train ndcg_30 0.5493714213371277 Train ndcg_60 0.6184821128845215 Val ndcg_5 0.47465434670448303 Val ndcg_10 0.4912826716899872 Val ndcg_30 0.5475959181785583 Val ndcg_60 0.6160902380943298
+2023-03-18 23:36:09,454 - allrank.utils.ltr_logging - INFO - Current:0.47465434670448303 Best:0.47606685757637024
+2023-03-18 23:36:09,455 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:36:22,004 - allrank.utils.ltr_logging - INFO - Epoch : 26 Train loss: -0.695607015132904 Val loss: -0.690595088005066 Train ndcg_5 0.4766058623790741 Train ndcg_10 0.4923063814640045 Train ndcg_30 0.5476486086845398 Train ndcg_60 0.6163657307624817 Val ndcg_5 0.4729727804660797 Val ndcg_10 0.4899219572544098 Val ndcg_30 0.5462222099304199 Val ndcg_60 0.614533007144928
+2023-03-18 23:36:22,005 - allrank.utils.ltr_logging - INFO - Current:0.4729727804660797 Best:0.47606685757637024
+2023-03-18 23:36:22,006 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:36:34,756 - allrank.utils.ltr_logging - INFO - Epoch : 27 Train loss: -0.6971229839324952 Val loss: -0.6885699133872986 Train ndcg_5 0.4736489951610565 Train ndcg_10 0.4898368716239929 Train ndcg_30 0.5475101470947266 Train ndcg_60 0.6174118518829346 Val ndcg_5 0.46743470430374146 Val ndcg_10 0.48515620827674866 Val ndcg_30 0.5437749028205872 Val ndcg_60 0.6117410063743591
+2023-03-18 23:36:34,758 - allrank.utils.ltr_logging - INFO - Current:0.46743470430374146 Best:0.47606685757637024
+2023-03-18 23:36:34,758 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:36:47,639 - allrank.utils.ltr_logging - INFO - Epoch : 28 Train loss: -0.6966960161526998 Val loss: -0.6925219202041626 Train ndcg_5 0.4853159189224243 Train ndcg_10 0.4991218149662018 Train ndcg_30 0.5543390512466431 Train ndcg_60 0.6223663687705994 Val ndcg_5 0.4772392213344574 Val ndcg_10 0.4942243993282318 Val ndcg_30 0.5494164824485779 Val ndcg_60 0.6173833012580872
+2023-03-18 23:36:47,640 - allrank.utils.ltr_logging - INFO - Current:0.4772392213344574 Best:0.47606685757637024
+2023-03-18 23:36:47,641 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:37:00,446 - allrank.utils.ltr_logging - INFO - Epoch : 29 Train loss: -0.6962000829378764 Val loss: -0.6868176641464233 Train ndcg_5 0.47207266092300415 Train ndcg_10 0.4884915351867676 Train ndcg_30 0.5452179312705994 Train ndcg_60 0.6147864460945129 Val ndcg_5 0.4635574519634247 Val ndcg_10 0.48100435733795166 Val ndcg_30 0.5396214723587036 Val ndcg_60 0.6086801290512085
+2023-03-18 23:37:00,447 - allrank.utils.ltr_logging - INFO - Current:0.4635574519634247 Best:0.4772392213344574
+2023-03-18 23:37:00,447 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:37:13,338 - allrank.utils.ltr_logging - INFO - Epoch : 30 Train loss: -0.6963170455296834 Val loss: -0.6916751298904419 Train ndcg_5 0.4779506027698517 Train ndcg_10 0.49443167448043823 Train ndcg_30 0.5507225394248962 Train ndcg_60 0.6193308234214783 Val ndcg_5 0.47289296984672546 Val ndcg_10 0.4904133081436157 Val ndcg_30 0.5488761067390442 Val ndcg_60 0.6164016127586365
+2023-03-18 23:37:13,339 - allrank.utils.ltr_logging - INFO - Current:0.47289296984672546 Best:0.4772392213344574
+2023-03-18 23:37:13,340 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:37:26,229 - allrank.utils.ltr_logging - INFO - Epoch : 31 Train loss: -0.6962022053400675 Val loss: -0.6886830825805664 Train ndcg_5 0.47630223631858826 Train ndcg_10 0.4896087050437927 Train ndcg_30 0.5463927984237671 Train ndcg_60 0.6150888800621033 Val ndcg_5 0.46967488527297974 Val ndcg_10 0.48628413677215576 Val ndcg_30 0.5415300726890564 Val ndcg_60 0.611556887626648
+2023-03-18 23:37:26,231 - allrank.utils.ltr_logging - INFO - Current:0.46967488527297974 Best:0.4772392213344574
+2023-03-18 23:37:26,231 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:37:39,094 - allrank.utils.ltr_logging - INFO - Epoch : 32 Train loss: -0.6977419204711914 Val loss: -0.6920978307724 Train ndcg_5 0.48203369975090027 Train ndcg_10 0.49721798300743103 Train ndcg_30 0.5522675514221191 Train ndcg_60 0.6202093958854675 Val ndcg_5 0.47597911953926086 Val ndcg_10 0.49126455187797546 Val ndcg_30 0.5486963987350464 Val ndcg_60 0.6167111992835999
+2023-03-18 23:37:39,096 - allrank.utils.ltr_logging - INFO - Current:0.47597911953926086 Best:0.4772392213344574
+2023-03-18 23:37:39,097 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:37:51,777 - allrank.utils.ltr_logging - INFO - Epoch : 33 Train loss: -0.6962557996114095 Val loss: -0.6886555786132813 Train ndcg_5 0.4772857129573822 Train ndcg_10 0.49226972460746765 Train ndcg_30 0.548780620098114 Train ndcg_60 0.6180245876312256 Val ndcg_5 0.4661577641963959 Val ndcg_10 0.486069917678833 Val ndcg_30 0.5433110594749451 Val ndcg_60 0.6118531227111816
+2023-03-18 23:37:51,778 - allrank.utils.ltr_logging - INFO - Current:0.4661577641963959 Best:0.4772392213344574
+2023-03-18 23:37:51,779 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:38:04,358 - allrank.utils.ltr_logging - INFO - Epoch : 34 Train loss: -0.6985994815826416 Val loss: -0.6915932998657227 Train ndcg_5 0.4797888398170471 Train ndcg_10 0.4946182072162628 Train ndcg_30 0.5493133664131165 Train ndcg_60 0.6178892850875854 Val ndcg_5 0.47404956817626953 Val ndcg_10 0.48969826102256775 Val ndcg_30 0.5463119149208069 Val ndcg_60 0.6154279112815857
+2023-03-18 23:38:04,359 - allrank.utils.ltr_logging - INFO - Current:0.47404956817626953 Best:0.4772392213344574
+2023-03-18 23:38:04,360 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:38:17,244 - allrank.utils.ltr_logging - INFO - Epoch : 35 Train loss: -0.6971770728429159 Val loss: -0.6901571378707886 Train ndcg_5 0.47890526056289673 Train ndcg_10 0.49470365047454834 Train ndcg_30 0.55128014087677 Train ndcg_60 0.6195194721221924 Val ndcg_5 0.46734052896499634 Val ndcg_10 0.48626935482025146 Val ndcg_30 0.5457907915115356 Val ndcg_60 0.6134689450263977
+2023-03-18 23:38:17,245 - allrank.utils.ltr_logging - INFO - Current:0.46734052896499634 Best:0.4772392213344574
+2023-03-18 23:38:17,245 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:38:30,175 - allrank.utils.ltr_logging - INFO - Epoch : 36 Train loss: -0.6979647623697917 Val loss: -0.6884724645614624 Train ndcg_5 0.4756036698818207 Train ndcg_10 0.49104276299476624 Train ndcg_30 0.5476093888282776 Train ndcg_60 0.6165560483932495 Val ndcg_5 0.4676285982131958 Val ndcg_10 0.48525410890579224 Val ndcg_30 0.5436792373657227 Val ndcg_60 0.6121295690536499
+2023-03-18 23:38:30,176 - allrank.utils.ltr_logging - INFO - Current:0.4676285982131958 Best:0.4772392213344574
+2023-03-18 23:38:30,178 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:38:43,133 - allrank.utils.ltr_logging - INFO - Epoch : 37 Train loss: -0.6976480682690939 Val loss: -0.685341381072998 Train ndcg_5 0.46741583943367004 Train ndcg_10 0.4848712384700775 Train ndcg_30 0.5448810458183289 Train ndcg_60 0.6146373748779297 Val ndcg_5 0.4587235450744629 Val ndcg_10 0.476916640996933 Val ndcg_30 0.5395450592041016 Val ndcg_60 0.608591616153717
+2023-03-18 23:38:43,134 - allrank.utils.ltr_logging - INFO - Current:0.4587235450744629 Best:0.4772392213344574
+2023-03-18 23:38:43,134 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:38:56,073 - allrank.utils.ltr_logging - INFO - Epoch : 38 Train loss: -0.6959337708155314 Val loss: -0.6896763806343078 Train ndcg_5 0.47513899207115173 Train ndcg_10 0.4910467863082886 Train ndcg_30 0.5486015677452087 Train ndcg_60 0.6177664995193481 Val ndcg_5 0.46798574924468994 Val ndcg_10 0.4857387840747833 Val ndcg_30 0.5448984503746033 Val ndcg_60 0.6125903129577637
+2023-03-18 23:38:56,075 - allrank.utils.ltr_logging - INFO - Current:0.46798574924468994 Best:0.4772392213344574
+2023-03-18 23:38:56,075 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:39:09,060 - allrank.utils.ltr_logging - INFO - Epoch : 39 Train loss: -0.6971295776367188 Val loss: -0.6905213270187378 Train ndcg_5 0.47960829734802246 Train ndcg_10 0.4943600296974182 Train ndcg_30 0.5489028096199036 Train ndcg_60 0.6179963946342468 Val ndcg_5 0.4711785614490509 Val ndcg_10 0.48647257685661316 Val ndcg_30 0.5457202196121216 Val ndcg_60 0.613869309425354
+2023-03-18 23:39:09,061 - allrank.utils.ltr_logging - INFO - Current:0.4711785614490509 Best:0.4772392213344574
+2023-03-18 23:39:09,062 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:39:22,236 - allrank.utils.ltr_logging - INFO - Epoch : 40 Train loss: -0.6960761947631836 Val loss: -0.6904712352752685 Train ndcg_5 0.4758993983268738 Train ndcg_10 0.49067753553390503 Train ndcg_30 0.5469414591789246 Train ndcg_60 0.6168428659439087 Val ndcg_5 0.47006770968437195 Val ndcg_10 0.4866744875907898 Val ndcg_30 0.544880747795105 Val ndcg_60 0.6136777400970459
+2023-03-18 23:39:22,238 - allrank.utils.ltr_logging - INFO - Current:0.47006770968437195 Best:0.4772392213344574
+2023-03-18 23:39:22,238 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:39:35,398 - allrank.utils.ltr_logging - INFO - Epoch : 41 Train loss: -0.6981923147837321 Val loss: -0.694068733215332 Train ndcg_5 0.48776277899742126 Train ndcg_10 0.5018649697303772 Train ndcg_30 0.555407702922821 Train ndcg_60 0.6235904693603516 Val ndcg_5 0.4775626063346863 Val ndcg_10 0.4943762421607971 Val ndcg_30 0.5520489811897278 Val ndcg_60 0.6182205080986023
+2023-03-18 23:39:35,399 - allrank.utils.ltr_logging - INFO - Current:0.4775626063346863 Best:0.4772392213344574
+2023-03-18 23:39:35,400 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:39:48,178 - allrank.utils.ltr_logging - INFO - Epoch : 42 Train loss: -0.6992910073598226 Val loss: -0.6893321638107299 Train ndcg_5 0.475004643201828 Train ndcg_10 0.49082839488983154 Train ndcg_30 0.5447285175323486 Train ndcg_60 0.6139159798622131 Val ndcg_5 0.46949276328086853 Val ndcg_10 0.485721617937088 Val ndcg_30 0.5423192381858826 Val ndcg_60 0.6112077236175537
+2023-03-18 23:39:48,180 - allrank.utils.ltr_logging - INFO - Current:0.46949276328086853 Best:0.4775626063346863
+2023-03-18 23:39:48,180 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:40:01,009 - allrank.utils.ltr_logging - INFO - Epoch : 43 Train loss: -0.6996954003969829 Val loss: -0.6921491975784302 Train ndcg_5 0.4793708920478821 Train ndcg_10 0.4960007667541504 Train ndcg_30 0.5517905950546265 Train ndcg_60 0.6202936172485352 Val ndcg_5 0.4712204933166504 Val ndcg_10 0.4885261356830597 Val ndcg_30 0.5474019050598145 Val ndcg_60 0.6156535744667053
+2023-03-18 23:40:01,010 - allrank.utils.ltr_logging - INFO - Current:0.4712204933166504 Best:0.4775626063346863
+2023-03-18 23:40:01,011 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:40:13,852 - allrank.utils.ltr_logging - INFO - Epoch : 44 Train loss: -0.6988154646555582 Val loss: -0.6924436283111572 Train ndcg_5 0.48002204298973083 Train ndcg_10 0.49499544501304626 Train ndcg_30 0.5528624057769775 Train ndcg_60 0.6209030747413635 Val ndcg_5 0.47094881534576416 Val ndcg_10 0.4875809848308563 Val ndcg_30 0.5479552149772644 Val ndcg_60 0.616256833076477
+2023-03-18 23:40:13,853 - allrank.utils.ltr_logging - INFO - Current:0.47094881534576416 Best:0.4775626063346863
+2023-03-18 23:40:13,853 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:40:26,542 - allrank.utils.ltr_logging - INFO - Epoch : 45 Train loss: -0.6981299745241801 Val loss: -0.6893793406486511 Train ndcg_5 0.4832940995693207 Train ndcg_10 0.4957621097564697 Train ndcg_30 0.5517144203186035 Train ndcg_60 0.6205599308013916 Val ndcg_5 0.46922796964645386 Val ndcg_10 0.48589637875556946 Val ndcg_30 0.5441921353340149 Val ndcg_60 0.6128730773925781
+2023-03-18 23:40:26,543 - allrank.utils.ltr_logging - INFO - Current:0.46922796964645386 Best:0.4775626063346863
+2023-03-18 23:40:26,543 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:40:39,528 - allrank.utils.ltr_logging - INFO - Epoch : 46 Train loss: -0.6993512345949808 Val loss: -0.6928073692321778 Train ndcg_5 0.4833994209766388 Train ndcg_10 0.4990312159061432 Train ndcg_30 0.5540963411331177 Train ndcg_60 0.6220252513885498 Val ndcg_5 0.4768185317516327 Val ndcg_10 0.4919922649860382 Val ndcg_30 0.5484476089477539 Val ndcg_60 0.6164430379867554
+2023-03-18 23:40:39,529 - allrank.utils.ltr_logging - INFO - Current:0.4768185317516327 Best:0.4775626063346863
+2023-03-18 23:40:39,529 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:40:52,511 - allrank.utils.ltr_logging - INFO - Epoch : 47 Train loss: -0.6976228011449178 Val loss: -0.6905487194061279 Train ndcg_5 0.47943565249443054 Train ndcg_10 0.4943494498729706 Train ndcg_30 0.5500112771987915 Train ndcg_60 0.6184364557266235 Val ndcg_5 0.46977698802948 Val ndcg_10 0.48825472593307495 Val ndcg_30 0.5457486510276794 Val ndcg_60 0.614353597164154
+2023-03-18 23:40:52,512 - allrank.utils.ltr_logging - INFO - Current:0.46977698802948 Best:0.4775626063346863
+2023-03-18 23:40:52,513 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:41:05,273 - allrank.utils.ltr_logging - INFO - Epoch : 48 Train loss: -0.6978061180114746 Val loss: -0.6941212058067322 Train ndcg_5 0.4821367859840393 Train ndcg_10 0.497785747051239 Train ndcg_30 0.5540944933891296 Train ndcg_60 0.622021496295929 Val ndcg_5 0.47858214378356934 Val ndcg_10 0.49327552318573 Val ndcg_30 0.5508692860603333 Val ndcg_60 0.6183189749717712
+2023-03-18 23:41:05,274 - allrank.utils.ltr_logging - INFO - Current:0.47858214378356934 Best:0.4775626063346863
+2023-03-18 23:41:05,274 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.001
+2023-03-18 23:41:18,021 - allrank.utils.ltr_logging - INFO - Epoch : 49 Train loss: -0.69897833887736 Val loss: -0.6893493967056274 Train ndcg_5 0.47874125838279724 Train ndcg_10 0.4946531653404236 Train ndcg_30 0.5511001944541931 Train ndcg_60 0.6201570630073547 Val ndcg_5 0.4680861234664917 Val ndcg_10 0.486788809299469 Val ndcg_30 0.5449163913726807 Val ndcg_60 0.613053023815155
+2023-03-18 23:41:18,022 - allrank.utils.ltr_logging - INFO - Current:0.4680861234664917 Best:0.47858214378356934
+2023-03-18 23:41:18,023 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:41:30,964 - allrank.utils.ltr_logging - INFO - Epoch : 50 Train loss: -0.7015465621948243 Val loss: -0.6930868835449219 Train ndcg_5 0.48847880959510803 Train ndcg_10 0.5028925538063049 Train ndcg_30 0.5571192502975464 Train ndcg_60 0.6249564290046692 Val ndcg_5 0.47662580013275146 Val ndcg_10 0.4933181405067444 Val ndcg_30 0.5498725175857544 Val ndcg_60 0.6173429489135742
+2023-03-18 23:41:30,965 - allrank.utils.ltr_logging - INFO - Current:0.47662580013275146 Best:0.47858214378356934
+2023-03-18 23:41:30,967 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:41:45,534 - allrank.utils.ltr_logging - INFO - Epoch : 51 Train loss: -0.7040601070721945 Val loss: -0.6935060806274415 Train ndcg_5 0.48989859223365784 Train ndcg_10 0.5035219788551331 Train ndcg_30 0.5580264329910278 Train ndcg_60 0.6253175139427185 Val ndcg_5 0.47690415382385254 Val ndcg_10 0.49404245615005493 Val ndcg_30 0.5510349273681641 Val ndcg_60 0.6178586483001709
+2023-03-18 23:41:45,536 - allrank.utils.ltr_logging - INFO - Current:0.47690415382385254 Best:0.47858214378356934
+2023-03-18 23:41:45,537 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:41:58,448 - allrank.utils.ltr_logging - INFO - Epoch : 52 Train loss: -0.7057967848777771 Val loss: -0.6949468698501587 Train ndcg_5 0.49180716276168823 Train ndcg_10 0.5054000616073608 Train ndcg_30 0.5599865913391113 Train ndcg_60 0.62726229429245 Val ndcg_5 0.47975462675094604 Val ndcg_10 0.4966543912887573 Val ndcg_30 0.5527142882347107 Val ndcg_60 0.6194707155227661
+2023-03-18 23:41:58,450 - allrank.utils.ltr_logging - INFO - Current:0.47975462675094604 Best:0.47858214378356934
+2023-03-18 23:41:58,450 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:42:11,796 - allrank.utils.ltr_logging - INFO - Epoch : 53 Train loss: -0.7059077002207438 Val loss: -0.6949865641593933 Train ndcg_5 0.49118536710739136 Train ndcg_10 0.5044363737106323 Train ndcg_30 0.5598956942558289 Train ndcg_60 0.6267017126083374 Val ndcg_5 0.48007717728614807 Val ndcg_10 0.49625664949417114 Val ndcg_30 0.5531193017959595 Val ndcg_60 0.6197618842124939
+2023-03-18 23:42:11,797 - allrank.utils.ltr_logging - INFO - Current:0.48007717728614807 Best:0.47975462675094604
+2023-03-18 23:42:11,797 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:42:24,605 - allrank.utils.ltr_logging - INFO - Epoch : 54 Train loss: -0.7063183436393737 Val loss: -0.6951034660339356 Train ndcg_5 0.4928877651691437 Train ndcg_10 0.506840705871582 Train ndcg_30 0.5605657696723938 Train ndcg_60 0.6278016567230225 Val ndcg_5 0.4787675738334656 Val ndcg_10 0.4965096116065979 Val ndcg_30 0.5527209639549255 Val ndcg_60 0.6194249391555786
+2023-03-18 23:42:24,606 - allrank.utils.ltr_logging - INFO - Current:0.4787675738334656 Best:0.48007717728614807
+2023-03-18 23:42:24,606 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:42:38,014 - allrank.utils.ltr_logging - INFO - Epoch : 55 Train loss: -0.7068526859283447 Val loss: -0.6961800565719605 Train ndcg_5 0.49466657638549805 Train ndcg_10 0.5078867673873901 Train ndcg_30 0.5611886978149414 Train ndcg_60 0.6283317804336548 Val ndcg_5 0.4825669825077057 Val ndcg_10 0.49850398302078247 Val ndcg_30 0.5543147325515747 Val ndcg_60 0.6205209493637085
+2023-03-18 23:42:38,015 - allrank.utils.ltr_logging - INFO - Current:0.4825669825077057 Best:0.48007717728614807
+2023-03-18 23:42:38,015 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:42:50,984 - allrank.utils.ltr_logging - INFO - Epoch : 56 Train loss: -0.7082057075500489 Val loss: -0.6962013769149781 Train ndcg_5 0.49481770396232605 Train ndcg_10 0.5081661939620972 Train ndcg_30 0.5617989301681519 Train ndcg_60 0.6286800503730774 Val ndcg_5 0.4827721118927002 Val ndcg_10 0.4981743395328522 Val ndcg_30 0.5542299747467041 Val ndcg_60 0.6206135153770447
+2023-03-18 23:42:50,985 - allrank.utils.ltr_logging - INFO - Current:0.4827721118927002 Best:0.4825669825077057
+2023-03-18 23:42:50,987 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:43:04,909 - allrank.utils.ltr_logging - INFO - Epoch : 57 Train loss: -0.7074828689893087 Val loss: -0.6959766874313355 Train ndcg_5 0.49575984477996826 Train ndcg_10 0.5086445808410645 Train ndcg_30 0.5618549585342407 Train ndcg_60 0.6291558146476746 Val ndcg_5 0.4815550744533539 Val ndcg_10 0.49697065353393555 Val ndcg_30 0.5540526509284973 Val ndcg_60 0.6203759908676147
+2023-03-18 23:43:04,911 - allrank.utils.ltr_logging - INFO - Current:0.4815550744533539 Best:0.4827721118927002
+2023-03-18 23:43:04,912 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:43:19,262 - allrank.utils.ltr_logging - INFO - Epoch : 58 Train loss: -0.7084496281941732 Val loss: -0.6959469499588012 Train ndcg_5 0.4963245391845703 Train ndcg_10 0.509088933467865 Train ndcg_30 0.5629303455352783 Train ndcg_60 0.6300771236419678 Val ndcg_5 0.48032790422439575 Val ndcg_10 0.4972899854183197 Val ndcg_30 0.5539025068283081 Val ndcg_60 0.6200048923492432
+2023-03-18 23:43:19,263 - allrank.utils.ltr_logging - INFO - Current:0.48032790422439575 Best:0.4827721118927002
+2023-03-18 23:43:19,263 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:43:33,293 - allrank.utils.ltr_logging - INFO - Epoch : 59 Train loss: -0.7087224040031433 Val loss: -0.695986478805542 Train ndcg_5 0.49578723311424255 Train ndcg_10 0.508840799331665 Train ndcg_30 0.5630590319633484 Train ndcg_60 0.6297188401222229 Val ndcg_5 0.48211777210235596 Val ndcg_10 0.49788913130760193 Val ndcg_30 0.5543949604034424 Val ndcg_60 0.6207259297370911
+2023-03-18 23:43:33,295 - allrank.utils.ltr_logging - INFO - Current:0.48211777210235596 Best:0.4827721118927002
+2023-03-18 23:43:33,295 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:43:48,372 - allrank.utils.ltr_logging - INFO - Epoch : 60 Train loss: -0.7079309808413188 Val loss: -0.6967329478263855 Train ndcg_5 0.4978191554546356 Train ndcg_10 0.5111281871795654 Train ndcg_30 0.5640602707862854 Train ndcg_60 0.6309939622879028 Val ndcg_5 0.48306676745414734 Val ndcg_10 0.49869459867477417 Val ndcg_30 0.5557159185409546 Val ndcg_60 0.6216453909873962
+2023-03-18 23:43:48,373 - allrank.utils.ltr_logging - INFO - Current:0.48306676745414734 Best:0.4827721118927002
+2023-03-18 23:43:48,374 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:44:02,129 - allrank.utils.ltr_logging - INFO - Epoch : 61 Train loss: -0.7081619588534037 Val loss: -0.6962533659934997 Train ndcg_5 0.49806034564971924 Train ndcg_10 0.5099416971206665 Train ndcg_30 0.5635619759559631 Train ndcg_60 0.6304866671562195 Val ndcg_5 0.48223793506622314 Val ndcg_10 0.49833670258522034 Val ndcg_30 0.5546399354934692 Val ndcg_60 0.6212958097457886
+2023-03-18 23:44:02,130 - allrank.utils.ltr_logging - INFO - Current:0.48223793506622314 Best:0.48306676745414734
+2023-03-18 23:44:02,131 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:44:15,653 - allrank.utils.ltr_logging - INFO - Epoch : 62 Train loss: -0.7091203346252442 Val loss: -0.6972521834373474 Train ndcg_5 0.4977623224258423 Train ndcg_10 0.5107998251914978 Train ndcg_30 0.5643423795700073 Train ndcg_60 0.6312544941902161 Val ndcg_5 0.48517489433288574 Val ndcg_10 0.4995954930782318 Val ndcg_30 0.5553604960441589 Val ndcg_60 0.6219759583473206
+2023-03-18 23:44:15,654 - allrank.utils.ltr_logging - INFO - Current:0.48517489433288574 Best:0.48306676745414734
+2023-03-18 23:44:15,655 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:44:29,532 - allrank.utils.ltr_logging - INFO - Epoch : 63 Train loss: -0.7097148383458456 Val loss: -0.6969213328361511 Train ndcg_5 0.5001699924468994 Train ndcg_10 0.5125112533569336 Train ndcg_30 0.5655642151832581 Train ndcg_60 0.6324647665023804 Val ndcg_5 0.4833304286003113 Val ndcg_10 0.4987936019897461 Val ndcg_30 0.554871141910553 Val ndcg_60 0.621322512626648
+2023-03-18 23:44:29,533 - allrank.utils.ltr_logging - INFO - Current:0.4833304286003113 Best:0.48517489433288574
+2023-03-18 23:44:29,534 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:44:43,761 - allrank.utils.ltr_logging - INFO - Epoch : 64 Train loss: -0.7097376120885214 Val loss: -0.6963043479919434 Train ndcg_5 0.4976099729537964 Train ndcg_10 0.5099262595176697 Train ndcg_30 0.5641428828239441 Train ndcg_60 0.6307123899459839 Val ndcg_5 0.48202601075172424 Val ndcg_10 0.49814754724502563 Val ndcg_30 0.5541688203811646 Val ndcg_60 0.620864748954773
+2023-03-18 23:44:43,762 - allrank.utils.ltr_logging - INFO - Current:0.48202601075172424 Best:0.48517489433288574
+2023-03-18 23:44:43,762 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:44:58,089 - allrank.utils.ltr_logging - INFO - Epoch : 65 Train loss: -0.7094024899800618 Val loss: -0.6963815269470215 Train ndcg_5 0.4979066550731659 Train ndcg_10 0.509338915348053 Train ndcg_30 0.5638953447341919 Train ndcg_60 0.6304391026496887 Val ndcg_5 0.4833180904388428 Val ndcg_10 0.4986796975135803 Val ndcg_30 0.5542008876800537 Val ndcg_60 0.6212425827980042
+2023-03-18 23:44:58,090 - allrank.utils.ltr_logging - INFO - Current:0.4833180904388428 Best:0.48517489433288574
+2023-03-18 23:44:58,091 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:45:11,577 - allrank.utils.ltr_logging - INFO - Epoch : 66 Train loss: -0.7097589888572693 Val loss: -0.6965265588760376 Train ndcg_5 0.4997575581073761 Train ndcg_10 0.5118383765220642 Train ndcg_30 0.5652500987052917 Train ndcg_60 0.6316010355949402 Val ndcg_5 0.4823966324329376 Val ndcg_10 0.4990103244781494 Val ndcg_30 0.5547227263450623 Val ndcg_60 0.6212083101272583
+2023-03-18 23:45:11,579 - allrank.utils.ltr_logging - INFO - Current:0.4823966324329376 Best:0.48517489433288574
+2023-03-18 23:45:11,579 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:45:25,037 - allrank.utils.ltr_logging - INFO - Epoch : 67 Train loss: -0.7104051458040873 Val loss: -0.6964938907623291 Train ndcg_5 0.5004202723503113 Train ndcg_10 0.512705385684967 Train ndcg_30 0.5649046301841736 Train ndcg_60 0.6316725015640259 Val ndcg_5 0.4837337136268616 Val ndcg_10 0.4980728328227997 Val ndcg_30 0.5541830062866211 Val ndcg_60 0.6211655139923096
+2023-03-18 23:45:25,038 - allrank.utils.ltr_logging - INFO - Current:0.4837337136268616 Best:0.48517489433288574
+2023-03-18 23:45:25,039 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:45:39,638 - allrank.utils.ltr_logging - INFO - Epoch : 68 Train loss: -0.7096678098042806 Val loss: -0.696666310787201 Train ndcg_5 0.4992542266845703 Train ndcg_10 0.5113401412963867 Train ndcg_30 0.5648750066757202 Train ndcg_60 0.632273256778717 Val ndcg_5 0.48370668292045593 Val ndcg_10 0.49759790301322937 Val ndcg_30 0.5548610687255859 Val ndcg_60 0.621364414691925
+2023-03-18 23:45:39,639 - allrank.utils.ltr_logging - INFO - Current:0.48370668292045593 Best:0.48517489433288574
+2023-03-18 23:45:39,640 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:45:53,239 - allrank.utils.ltr_logging - INFO - Epoch : 69 Train loss: -0.7098028704325358 Val loss: -0.6967931785583497 Train ndcg_5 0.5007383823394775 Train ndcg_10 0.5130662322044373 Train ndcg_30 0.5647479891777039 Train ndcg_60 0.6324660778045654 Val ndcg_5 0.4844796061515808 Val ndcg_10 0.4987642467021942 Val ndcg_30 0.5548480749130249 Val ndcg_60 0.6213530898094177
+2023-03-18 23:45:53,240 - allrank.utils.ltr_logging - INFO - Current:0.4844796061515808 Best:0.48517489433288574
+2023-03-18 23:45:53,241 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:46:07,064 - allrank.utils.ltr_logging - INFO - Epoch : 70 Train loss: -0.710452957312266 Val loss: -0.696685299873352 Train ndcg_5 0.5011733770370483 Train ndcg_10 0.5139254927635193 Train ndcg_30 0.5665650367736816 Train ndcg_60 0.6334294080734253 Val ndcg_5 0.48422056436538696 Val ndcg_10 0.49810081720352173 Val ndcg_30 0.5552355051040649 Val ndcg_60 0.6215433478355408
+2023-03-18 23:46:07,065 - allrank.utils.ltr_logging - INFO - Current:0.48422056436538696 Best:0.48517489433288574
+2023-03-18 23:46:07,065 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:46:20,457 - allrank.utils.ltr_logging - INFO - Epoch : 71 Train loss: -0.7101560742060343 Val loss: -0.6966240124702454 Train ndcg_5 0.49990567564964294 Train ndcg_10 0.5127687454223633 Train ndcg_30 0.5660009980201721 Train ndcg_60 0.6325386762619019 Val ndcg_5 0.4831739068031311 Val ndcg_10 0.4983813166618347 Val ndcg_30 0.554767370223999 Val ndcg_60 0.6212583184242249
+2023-03-18 23:46:20,458 - allrank.utils.ltr_logging - INFO - Current:0.4831739068031311 Best:0.48517489433288574
+2023-03-18 23:46:20,459 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:46:33,594 - allrank.utils.ltr_logging - INFO - Epoch : 72 Train loss: -0.7107841836611429 Val loss: -0.6963017063140869 Train ndcg_5 0.5009763240814209 Train ndcg_10 0.5130335092544556 Train ndcg_30 0.5664822459220886 Train ndcg_60 0.6331816911697388 Val ndcg_5 0.48260626196861267 Val ndcg_10 0.4978267550468445 Val ndcg_30 0.5540171265602112 Val ndcg_60 0.6210954785346985
+2023-03-18 23:46:33,595 - allrank.utils.ltr_logging - INFO - Current:0.48260626196861267 Best:0.48517489433288574
+2023-03-18 23:46:33,595 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:46:47,098 - allrank.utils.ltr_logging - INFO - Epoch : 73 Train loss: -0.7101844515800476 Val loss: -0.6965066590309144 Train ndcg_5 0.5006453394889832 Train ndcg_10 0.5126039385795593 Train ndcg_30 0.5656964182853699 Train ndcg_60 0.6330302357673645 Val ndcg_5 0.48360979557037354 Val ndcg_10 0.4984397292137146 Val ndcg_30 0.5551620721817017 Val ndcg_60 0.6212893128395081
+2023-03-18 23:46:47,099 - allrank.utils.ltr_logging - INFO - Current:0.48360979557037354 Best:0.48517489433288574
+2023-03-18 23:46:47,099 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:47:00,854 - allrank.utils.ltr_logging - INFO - Epoch : 74 Train loss: -0.7115931485493978 Val loss: -0.6966683831214905 Train ndcg_5 0.5022590160369873 Train ndcg_10 0.5140630602836609 Train ndcg_30 0.5662869811058044 Train ndcg_60 0.6333770155906677 Val ndcg_5 0.48568612337112427 Val ndcg_10 0.49872756004333496 Val ndcg_30 0.5549136996269226 Val ndcg_60 0.621505618095398
+2023-03-18 23:47:00,855 - allrank.utils.ltr_logging - INFO - Current:0.48568612337112427 Best:0.48517489433288574
+2023-03-18 23:47:00,856 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:47:14,458 - allrank.utils.ltr_logging - INFO - Epoch : 75 Train loss: -0.7115061740875244 Val loss: -0.6965744128227234 Train ndcg_5 0.5025685429573059 Train ndcg_10 0.5148977041244507 Train ndcg_30 0.5670875310897827 Train ndcg_60 0.6331850290298462 Val ndcg_5 0.4847096800804138 Val ndcg_10 0.49808573722839355 Val ndcg_30 0.5544137358665466 Val ndcg_60 0.6213491559028625
+2023-03-18 23:47:14,459 - allrank.utils.ltr_logging - INFO - Current:0.4847096800804138 Best:0.48568612337112427
+2023-03-18 23:47:14,460 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:47:27,707 - allrank.utils.ltr_logging - INFO - Epoch : 76 Train loss: -0.7112066262563069 Val loss: -0.6965584444999695 Train ndcg_5 0.5023875832557678 Train ndcg_10 0.5139068365097046 Train ndcg_30 0.5666626691818237 Train ndcg_60 0.6330389976501465 Val ndcg_5 0.4843272268772125 Val ndcg_10 0.4985819458961487 Val ndcg_30 0.5546140670776367 Val ndcg_60 0.6210402846336365
+2023-03-18 23:47:27,708 - allrank.utils.ltr_logging - INFO - Current:0.4843272268772125 Best:0.48568612337112427
+2023-03-18 23:47:27,709 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:47:41,449 - allrank.utils.ltr_logging - INFO - Epoch : 77 Train loss: -0.7114840658505758 Val loss: -0.6963634824752808 Train ndcg_5 0.501674473285675 Train ndcg_10 0.5142446756362915 Train ndcg_30 0.5666655898094177 Train ndcg_60 0.6333109736442566 Val ndcg_5 0.483822762966156 Val ndcg_10 0.49783945083618164 Val ndcg_30 0.5546513795852661 Val ndcg_60 0.6212887167930603
+2023-03-18 23:47:41,450 - allrank.utils.ltr_logging - INFO - Current:0.483822762966156 Best:0.48568612337112427
+2023-03-18 23:47:41,451 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:47:54,944 - allrank.utils.ltr_logging - INFO - Epoch : 78 Train loss: -0.7114959526062011 Val loss: -0.6960680828094482 Train ndcg_5 0.5018625259399414 Train ndcg_10 0.5135752558708191 Train ndcg_30 0.5664437413215637 Train ndcg_60 0.6333417296409607 Val ndcg_5 0.4839997887611389 Val ndcg_10 0.4967646896839142 Val ndcg_30 0.5538972616195679 Val ndcg_60 0.6209427714347839
+2023-03-18 23:47:54,946 - allrank.utils.ltr_logging - INFO - Current:0.4839997887611389 Best:0.48568612337112427
+2023-03-18 23:47:54,946 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:48:08,413 - allrank.utils.ltr_logging - INFO - Epoch : 79 Train loss: -0.7114813245137532 Val loss: -0.6964479584693909 Train ndcg_5 0.5025119781494141 Train ndcg_10 0.514498233795166 Train ndcg_30 0.5664299130439758 Train ndcg_60 0.6337108612060547 Val ndcg_5 0.4835965633392334 Val ndcg_10 0.4978269338607788 Val ndcg_30 0.5547153353691101 Val ndcg_60 0.6212296485900879
+2023-03-18 23:48:08,414 - allrank.utils.ltr_logging - INFO - Current:0.4835965633392334 Best:0.48568612337112427
+2023-03-18 23:48:08,415 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:48:22,006 - allrank.utils.ltr_logging - INFO - Epoch : 80 Train loss: -0.7118191823959351 Val loss: -0.6972496118545533 Train ndcg_5 0.5026339888572693 Train ndcg_10 0.514798104763031 Train ndcg_30 0.5670475959777832 Train ndcg_60 0.6336386799812317 Val ndcg_5 0.48459622263908386 Val ndcg_10 0.49822238087654114 Val ndcg_30 0.5555758476257324 Val ndcg_60 0.6216367483139038
+2023-03-18 23:48:22,008 - allrank.utils.ltr_logging - INFO - Current:0.48459622263908386 Best:0.48568612337112427
+2023-03-18 23:48:22,009 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:48:35,336 - allrank.utils.ltr_logging - INFO - Epoch : 81 Train loss: -0.7123489274978637 Val loss: -0.6966429624557495 Train ndcg_5 0.5027375221252441 Train ndcg_10 0.5147358179092407 Train ndcg_30 0.5673214793205261 Train ndcg_60 0.6344034671783447 Val ndcg_5 0.48426055908203125 Val ndcg_10 0.4981074333190918 Val ndcg_30 0.554660439491272 Val ndcg_60 0.6216844320297241
+2023-03-18 23:48:35,338 - allrank.utils.ltr_logging - INFO - Current:0.48426055908203125 Best:0.48568612337112427
+2023-03-18 23:48:35,339 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:48:49,037 - allrank.utils.ltr_logging - INFO - Epoch : 82 Train loss: -0.7120879124005636 Val loss: -0.69672922706604 Train ndcg_5 0.5023832321166992 Train ndcg_10 0.5152508020401001 Train ndcg_30 0.5675999522209167 Train ndcg_60 0.6345064043998718 Val ndcg_5 0.4849206507205963 Val ndcg_10 0.4975138008594513 Val ndcg_30 0.5550245642662048 Val ndcg_60 0.6214658617973328
+2023-03-18 23:48:49,038 - allrank.utils.ltr_logging - INFO - Current:0.4849206507205963 Best:0.48568612337112427
+2023-03-18 23:48:49,038 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:49:02,061 - allrank.utils.ltr_logging - INFO - Epoch : 83 Train loss: -0.7123599448204041 Val loss: -0.6962264337539673 Train ndcg_5 0.5024160146713257 Train ndcg_10 0.5141971707344055 Train ndcg_30 0.5673968195915222 Train ndcg_60 0.6339216232299805 Val ndcg_5 0.4833245575428009 Val ndcg_10 0.49747171998023987 Val ndcg_30 0.5548829436302185 Val ndcg_60 0.6211726665496826
+2023-03-18 23:49:02,062 - allrank.utils.ltr_logging - INFO - Current:0.4833245575428009 Best:0.48568612337112427
+2023-03-18 23:49:02,062 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:49:15,429 - allrank.utils.ltr_logging - INFO - Epoch : 84 Train loss: -0.7120508670806884 Val loss: -0.6968084325790406 Train ndcg_5 0.5041518211364746 Train ndcg_10 0.5161688923835754 Train ndcg_30 0.568371593952179 Train ndcg_60 0.6342462301254272 Val ndcg_5 0.48481735587120056 Val ndcg_10 0.49856746196746826 Val ndcg_30 0.5548763871192932 Val ndcg_60 0.6214368939399719
+2023-03-18 23:49:15,430 - allrank.utils.ltr_logging - INFO - Current:0.48481735587120056 Best:0.48568612337112427
+2023-03-18 23:49:15,431 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:49:29,114 - allrank.utils.ltr_logging - INFO - Epoch : 85 Train loss: -0.7121957712173462 Val loss: -0.6969254746437072 Train ndcg_5 0.5039928555488586 Train ndcg_10 0.5158928036689758 Train ndcg_30 0.5672792196273804 Train ndcg_60 0.634381890296936 Val ndcg_5 0.4847765564918518 Val ndcg_10 0.49919459223747253 Val ndcg_30 0.5551120638847351 Val ndcg_60 0.621773362159729
+2023-03-18 23:49:29,115 - allrank.utils.ltr_logging - INFO - Current:0.4847765564918518 Best:0.48568612337112427
+2023-03-18 23:49:29,116 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:49:43,117 - allrank.utils.ltr_logging - INFO - Epoch : 86 Train loss: -0.7125132689476014 Val loss: -0.6966352276802062 Train ndcg_5 0.5039935111999512 Train ndcg_10 0.5166815519332886 Train ndcg_30 0.5683984756469727 Train ndcg_60 0.6351001262664795 Val ndcg_5 0.4853209853172302 Val ndcg_10 0.49785128235816956 Val ndcg_30 0.554886519908905 Val ndcg_60 0.6215419173240662
+2023-03-18 23:49:43,118 - allrank.utils.ltr_logging - INFO - Current:0.4853209853172302 Best:0.48568612337112427
+2023-03-18 23:49:43,119 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:49:56,798 - allrank.utils.ltr_logging - INFO - Epoch : 87 Train loss: -0.7125316076278686 Val loss: -0.6965815639495849 Train ndcg_5 0.5039730072021484 Train ndcg_10 0.5163111686706543 Train ndcg_30 0.5689400434494019 Train ndcg_60 0.6354321837425232 Val ndcg_5 0.48531466722488403 Val ndcg_10 0.4981015622615814 Val ndcg_30 0.5548984408378601 Val ndcg_60 0.6216161251068115
+2023-03-18 23:49:56,799 - allrank.utils.ltr_logging - INFO - Current:0.48531466722488403 Best:0.48568612337112427
+2023-03-18 23:49:56,799 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:50:09,931 - allrank.utils.ltr_logging - INFO - Epoch : 88 Train loss: -0.7126673243840536 Val loss: -0.6967311391830444 Train ndcg_5 0.5048916935920715 Train ndcg_10 0.5177347660064697 Train ndcg_30 0.5689529180526733 Train ndcg_60 0.6356410980224609 Val ndcg_5 0.48457765579223633 Val ndcg_10 0.49869441986083984 Val ndcg_30 0.5546771287918091 Val ndcg_60 0.6215167045593262
+2023-03-18 23:50:09,932 - allrank.utils.ltr_logging - INFO - Current:0.48457765579223633 Best:0.48568612337112427
+2023-03-18 23:50:09,933 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:50:23,256 - allrank.utils.ltr_logging - INFO - Epoch : 89 Train loss: -0.713317392985026 Val loss: -0.6964995164871216 Train ndcg_5 0.5037312507629395 Train ndcg_10 0.5163931846618652 Train ndcg_30 0.5679246187210083 Train ndcg_60 0.634419322013855 Val ndcg_5 0.4836476743221283 Val ndcg_10 0.49752187728881836 Val ndcg_30 0.5546154975891113 Val ndcg_60 0.6216228604316711
+2023-03-18 23:50:23,257 - allrank.utils.ltr_logging - INFO - Current:0.4836476743221283 Best:0.48568612337112427
+2023-03-18 23:50:23,258 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:50:36,866 - allrank.utils.ltr_logging - INFO - Epoch : 90 Train loss: -0.7125793356895447 Val loss: -0.69674769115448 Train ndcg_5 0.5050450563430786 Train ndcg_10 0.5158684849739075 Train ndcg_30 0.5689611434936523 Train ndcg_60 0.6354912519454956 Val ndcg_5 0.4848750829696655 Val ndcg_10 0.49738654494285583 Val ndcg_30 0.5550836324691772 Val ndcg_60 0.6219263672828674
+2023-03-18 23:50:36,867 - allrank.utils.ltr_logging - INFO - Current:0.4848750829696655 Best:0.48568612337112427
+2023-03-18 23:50:36,867 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:50:50,807 - allrank.utils.ltr_logging - INFO - Epoch : 91 Train loss: -0.7132253096898397 Val loss: -0.6963364791870117 Train ndcg_5 0.5073010921478271 Train ndcg_10 0.5177303552627563 Train ndcg_30 0.5698336362838745 Train ndcg_60 0.6360952258110046 Val ndcg_5 0.4831434488296509 Val ndcg_10 0.49803322553634644 Val ndcg_30 0.5550674200057983 Val ndcg_60 0.6212624311447144
+2023-03-18 23:50:50,808 - allrank.utils.ltr_logging - INFO - Current:0.4831434488296509 Best:0.48568612337112427
+2023-03-18 23:50:50,809 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:51:04,489 - allrank.utils.ltr_logging - INFO - Epoch : 92 Train loss: -0.7135200897852579 Val loss: -0.6963579750061035 Train ndcg_5 0.504122257232666 Train ndcg_10 0.5165961980819702 Train ndcg_30 0.5681378841400146 Train ndcg_60 0.6348365545272827 Val ndcg_5 0.48419880867004395 Val ndcg_10 0.49820655584335327 Val ndcg_30 0.5547494292259216 Val ndcg_60 0.6215890049934387
+2023-03-18 23:51:04,491 - allrank.utils.ltr_logging - INFO - Current:0.48419880867004395 Best:0.48568612337112427
+2023-03-18 23:51:04,491 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:51:18,024 - allrank.utils.ltr_logging - INFO - Epoch : 93 Train loss: -0.7133963743845622 Val loss: -0.696242121219635 Train ndcg_5 0.5070403814315796 Train ndcg_10 0.5175750255584717 Train ndcg_30 0.5698874592781067 Train ndcg_60 0.6358699798583984 Val ndcg_5 0.48354920744895935 Val ndcg_10 0.49744218587875366 Val ndcg_30 0.5545499324798584 Val ndcg_60 0.6211190819740295
+2023-03-18 23:51:18,025 - allrank.utils.ltr_logging - INFO - Current:0.48354920744895935 Best:0.48568612337112427
+2023-03-18 23:51:18,026 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:51:30,970 - allrank.utils.ltr_logging - INFO - Epoch : 94 Train loss: -0.7137484405835469 Val loss: -0.6962358860969543 Train ndcg_5 0.5059563517570496 Train ndcg_10 0.5180372595787048 Train ndcg_30 0.5692257285118103 Train ndcg_60 0.635252833366394 Val ndcg_5 0.48365074396133423 Val ndcg_10 0.49676406383514404 Val ndcg_30 0.5546038746833801 Val ndcg_60 0.6212605237960815
+2023-03-18 23:51:30,971 - allrank.utils.ltr_logging - INFO - Current:0.48365074396133423 Best:0.48568612337112427
+2023-03-18 23:51:30,972 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:51:44,524 - allrank.utils.ltr_logging - INFO - Epoch : 95 Train loss: -0.7133293120066325 Val loss: -0.6961417965888977 Train ndcg_5 0.5049567222595215 Train ndcg_10 0.516442060470581 Train ndcg_30 0.5686984062194824 Train ndcg_60 0.6353603005409241 Val ndcg_5 0.4834156632423401 Val ndcg_10 0.49734365940093994 Val ndcg_30 0.5543381571769714 Val ndcg_60 0.6209900975227356
+2023-03-18 23:51:44,525 - allrank.utils.ltr_logging - INFO - Current:0.4834156632423401 Best:0.48568612337112427
+2023-03-18 23:51:44,525 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:51:58,462 - allrank.utils.ltr_logging - INFO - Epoch : 96 Train loss: -0.7141456732749939 Val loss: -0.696459632396698 Train ndcg_5 0.5065051317214966 Train ndcg_10 0.5171019434928894 Train ndcg_30 0.5691336393356323 Train ndcg_60 0.6358095407485962 Val ndcg_5 0.485541433095932 Val ndcg_10 0.4983351528644562 Val ndcg_30 0.5552518963813782 Val ndcg_60 0.6214905977249146
+2023-03-18 23:51:58,464 - allrank.utils.ltr_logging - INFO - Current:0.485541433095932 Best:0.48568612337112427
+2023-03-18 23:51:58,465 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:52:12,374 - allrank.utils.ltr_logging - INFO - Epoch : 97 Train loss: -0.7132758499781291 Val loss: -0.696261468410492 Train ndcg_5 0.5073081254959106 Train ndcg_10 0.517841637134552 Train ndcg_30 0.5700094103813171 Train ndcg_60 0.6358897089958191 Val ndcg_5 0.48404473066329956 Val ndcg_10 0.49762123823165894 Val ndcg_30 0.5549213886260986 Val ndcg_60 0.6210072636604309
+2023-03-18 23:52:12,376 - allrank.utils.ltr_logging - INFO - Current:0.48404473066329956 Best:0.48568612337112427
+2023-03-18 23:52:12,376 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:52:26,143 - allrank.utils.ltr_logging - INFO - Epoch : 98 Train loss: -0.7135007235209148 Val loss: -0.6953067064285279 Train ndcg_5 0.5050820112228394 Train ndcg_10 0.516322910785675 Train ndcg_30 0.5693601965904236 Train ndcg_60 0.6359413862228394 Val ndcg_5 0.481180876493454 Val ndcg_10 0.4957231283187866 Val ndcg_30 0.5537190437316895 Val ndcg_60 0.6201926469802856
+2023-03-18 23:52:26,145 - allrank.utils.ltr_logging - INFO - Current:0.481180876493454 Best:0.48568612337112427
+2023-03-18 23:52:26,146 - allrank.utils.ltr_logging - INFO - Current learning rate: 0.0001
+2023-03-18 23:52:40,163 - allrank.utils.ltr_logging - INFO - Epoch : 99 Train loss: -0.7138403102556864 Val loss: -0.6962090497016906 Train ndcg_5 0.5095208883285522 Train ndcg_10 0.5197673439979553 Train ndcg_30 0.5715349316596985 Train ndcg_60 0.6375168561935425 Val ndcg_5 0.48349428176879883 Val ndcg_10 0.49721992015838623 Val ndcg_30 0.554500162601471 Val ndcg_60 0.6211323738098145
+2023-03-18 23:52:40,165 - allrank.utils.ltr_logging - INFO - Current:0.48349428176879883 Best:0.48568612337112427
+2023-03-18 23:52:40,187 - allrank.utils.ltr_logging - INFO - val ndcg_5 got 0.48349428176879883. It was expected to be at least 0.5

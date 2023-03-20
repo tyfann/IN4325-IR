@@ -51,7 +51,7 @@ def run():
     logger.info("Config:\n {}".format(pformat(vars(config), width=1)))
 
     output_config_path = os.path.join(paths.output_dir, "used_config.json")
-    execute_command("cp {} {}".format(paths.config_path, output_config_path))
+    execute_command("copy {} {}".format(paths.config_path, output_config_path))
 
     # train_ds, val_ds
     train_ds, val_ds = load_libsvm_dataset(
