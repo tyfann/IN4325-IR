@@ -1,1 +1,6 @@
 /data/
+.idea
+.pytest_cache
+/allrank/task-mq2008/
+/allrank/task-web10/
+/allrank/old_task/

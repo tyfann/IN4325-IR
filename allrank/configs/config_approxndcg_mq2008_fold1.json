@@ -21,7 +21,7 @@
         }
     },
     "data": {
-        "path": "C:\\Users\\tyfann\\Documents\\TU Delft\\IN4325 Information Retrieval\\IN4325-IR\\data\\MSLR-WEB10K\\Fold1_normalized",
+        "path": "C:\\Users\\tyfann\\Documents\\TU Delft\\IN4325 Information Retrieval\\IN4325-IR\\data\\MQ2008\\Fold1_normalized",
         "validation_ds_role": "test",
         "num_workers": 1,
         "batch_size": 64,
@@ -41,8 +41,8 @@
         }
     },
     "training": {
-        "epochs": 100,
-        "early_stopping_patience": 100,
+        "epochs": 30,
+        "early_stopping_patience": 30,
         "gradient_clipping_norm": null
     },
     "val_metric": "ndcg_5",
