@@ -1,4 +1,8 @@
-# allRank : Learning to Rank in PyTorch
+# IN4325 - Group30
+
+2022-2023
+
+Author: Yufan Tang, Yifan Song
 
 ### Rubric
 
